@@ -1,0 +1,75 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: url("back.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.main{
+	width: 300px;
+	padding: 15px;
+	background: rgba(255,255,255,.5);
+	margin: 0 auto;
+	top: 50%;
+	border-radius: 3px;
+	position: relative;
+	transform: translateY(-50%);
+}
+.logo{
+	text-align: center;
+	/*background: darkgreen;*/
+}
+.logo img{
+	width: 100%;
+}
+.fel{
+	text-align: center;
+}
+.fel .inp{
+	color: #000;
+	background: none;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 16pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	border-bottom: 2px solid grey;
+}
+.fel .inp:focus{
+	outline: none;
+	border-bottom: 2px solid darkgreen;
+}
+.fel .btn{
+	width: 100%;
+	font-size: 16pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: darkgreen;
+	border: 1px solid green;
+	color: #fff;
+}
+.fel .btn:hover{
+	background: green;
+	border: 1px solid darkgreen;
+	cursor: pointer;
+}
+
+/* this is responsive design */
+
+@media only screen and (max-width: 767px){
+	.main{
+		width: 250px;
+	}
+	.logo img{
+		width: 80%;
+	}
+	.fel .inp{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}

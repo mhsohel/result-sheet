@@ -1,0 +1,30 @@
+$red: red;
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 900px;
+	min-height: 500px;
+	background: $red;
+}
+
+header{
+	width: auto;
+	min-height: 100px;
+	background: green;
+
+	.logo{
+		width: 100px;
+		height: 100px;
+		background: yellow;
+	}
+	.slogan{
+		width: 800px;
+		height: 100px;
+		background: blue;
+	}
+}
