@@ -22,7 +22,7 @@
 <body>
 
 <nav class="navbar navbar-inverse">
-  <div class="head">The Students Result Database</div>
+  <div class="head">The Students Result from Database</div>
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
